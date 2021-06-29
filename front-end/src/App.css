@@ -1,0 +1,27 @@
+html {
+    margin: 0;
+    height: 100%;    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    background: #FFA69E;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-login {
+    margin: auto;
+    padding: auto;
+}
+a {
+    text-decoration: none;
+    color: #AA4465;
+}
+a:hover {
+    color: #462255;
+}

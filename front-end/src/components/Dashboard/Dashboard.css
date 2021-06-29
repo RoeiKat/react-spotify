@@ -1,0 +1,52 @@
+.container-dashboard {
+    position: fixed;
+    width:100%;
+    height:100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.search {
+    text-align: center;
+}
+.search-bar {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+    background: #DDFFF7;
+    color: #462255;
+    border: none;
+}
+.search-bar:focus {
+    border: 1px solid black;
+}
+.lyrics {
+    text-align: center;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    color: #462255   
+}
+.container-tracks {
+    margin: 5px;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+}
+.track {
+    text-align: center;
+    font-size: 12px;
+    margin: 5px 0;
+}
+.track:hover {
+    background: darkblue;
+    cursor: pointer;
+}
+
