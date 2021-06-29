@@ -17,12 +17,12 @@
     font-size: 1.5rem;
     align-items: center;
     text-align: center;
-    background: #DDFFF7;
-    color: #462255;
+    background: #235789;
+    color: #FDFFFC;
     border: none;
 }
 .search-bar:focus {
-    border: 1px solid black;
+    border: 2px solid #C1292E;
 }
 .lyrics {
     text-align: center;
@@ -31,7 +31,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    color: #462255   
+    color: #222;
 }
 .container-tracks {
     margin: 5px;
@@ -46,7 +46,7 @@
     margin: 5px 0;
 }
 .track:hover {
-    background: darkblue;
+    background: #e5e9e3;
     cursor: pointer;
 }
 
